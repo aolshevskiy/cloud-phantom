@@ -1,0 +1,15 @@
+---
+applications:
+  .:
+    name: cloud-phantom
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Standalone Application
+        exec: 
+    runtime: java
+    command: bin/startup.sh
+    url: cloud-phantom.cloudfoundry.com
+    mem: 128M
+    instances: 1
